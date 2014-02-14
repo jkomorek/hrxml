@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+
+
+
+   Schema agency: 	Open Applications Group 
+
+
+   OAGIS® Revision:    Platform 1.1  
+   Date:               08 May 2009 
+   Copyright 1997-2009, All Rights Reserved 
+
+  	
+   Copyright (C) Open Applications Group (1997-2009). All Rights Reserved.
+  
+  
+   This is an OAGIS® BOD XML Schema (XSD) Definition.
+
+   License information for this file is provided in the file **OAGi License Agreement.txt** that is provided with this download package.
+
+   For support, more information, or to report implementation bugs, please contact the Open Applications Group at oagis@openapplications.org.
+    
+   XML Schema 
+     
+    Name: /OAGi_Business_Process_Integration_Platform/org_openapplications_platform/1_1/OAGi-Platform.xsd
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.openapplications.org/oagis/9" xmlns:oacl="http://www.openapplications.org/oagis/9/codelists" targetNamespace="http://www.openapplications.org/oagis/9" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://www.openapplications.org/oagis/9/codelists" schemaLocation="Common/OAGi/Components/CodeLists.xsd"/>
+	<xs:include schemaLocation="Common/OAGi/Components/Meta.xsd"/>
+	<xs:include schemaLocation="Common/OAGi/Components/Fields.xsd"/>
+	<xs:include schemaLocation="Common/OAGi/Components/Components.xsd"/>
+	<xs:include schemaLocation="Common/OAGi/Components/FinancialComponents.xsd"/>
+	<xs:include schemaLocation="Common/OAGi/Components/OrderManagementComponents.xsd"/>
+	<xs:include schemaLocation="Common/OAGi/Components/CRMComponents.xsd"/>
+	<xs:include schemaLocation="Common/OAGi/Components/LogisticsComponents.xsd"/>
+	<xs:include schemaLocation="Common/OAGi/Components/ManufacturingComponents.xsd"/>
+</xs:schema>
